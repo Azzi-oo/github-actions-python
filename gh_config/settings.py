@@ -22,7 +22,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "django-insecure-w8l7o71)r1f=f0-4535(5)m+rzr_(trjo-9i!rsu-r90@5-ydk"
 
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -69,7 +68,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "gh_config.wsgi.application"
 
-
+# create db 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
