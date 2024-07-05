@@ -19,7 +19,7 @@ jobs:
         run: pip install django
       - name: Test application
         run: python manage.py createsuperuser
-  test:
+  testing:
     runs-on: ubuntu-latest
     steps:
       - name: Get the repository code
